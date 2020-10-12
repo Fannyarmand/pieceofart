@@ -5,8 +5,7 @@ function preload() {
 // Mise en place du code
 function setup() {
   let c = createCanvas(600, 400);
-
-  // background(loadImage);
+  background(red);
   //c.elt.style.border = '5px solid black';//
 
 }
