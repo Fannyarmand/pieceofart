@@ -12,7 +12,7 @@ function setup() {
 }
 // Dessin
 function draw() {
-  let couleur_particules = color(random(255), random(255), random(255));
+  let couleur_particules = color(random(0), random(255), random(255));
   if (mouseIsPressed) {
      ellipse(mouseX, mouseY, 50);
     ellipse(mouseX+25, mouseY+25, 50);
