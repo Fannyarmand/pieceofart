@@ -26,6 +26,6 @@ function draw() {
   let taille = random(90);;
   stroke( couleur_particules);
   fill(couleur_particules);
-  square(mouseX, mouseY, 15)
+  square(mouseX, mouseY, 10)
 
 }
