@@ -22,7 +22,6 @@ function draw() {
     square(mouseX+50, mouseY+50, 50);
     triangle(mouseX+50, mouseY+50, mouseX+75, mouseY+25, mouseX+100, mouseY+50);
 
-
   }
   let taille = random(90);;
   stroke( couleur_particules);
